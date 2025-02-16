@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>表單填寫</h1>
+    <form>
+        <label for="name">姓名：</label>
+        <input type="text" id="name" name="name" placeholder="輸入姓名">
+        <br>
+        <label for="password">密碼：</label>
+        <input type="password" id="password" name="password" placeholder="輸入密碼">
+        <br>
+        <label for="birthday">生日：</label>
+        <input type="date" id="birthday" name="birthday">
+        <br><br>
+        <label for="your_sex">選擇性別：</label><br>
+        <input type="radio" id="male" name="your_sex">
+        <label for="male">男</label><br>
+        <input type="radio" id="female" name="your_sex">
+        <label for="female">女</label>
+        <br><br>
+        <label for="language">選擇擅長程式語言:</label><br>
+        <input type="checkbox" id="HTML" name="language">
+        <label for="HTML">HTML</label><br>
+        <input type="checkbox" id="CSS" name="language">
+        <label for="CSS">CSS</label><br>
+        <input type="checkbox" id="JavaScript" name="language">
+        <label for="JavaScript">JavaScript</label><br>
+        <input type="checkbox" id="C/C++" name="language">
+        <label for="C/C++">C/C++</label><br>
+        <input type="checkbox" id="Java" name="language">
+        <label for="Java">Java</label><br>
+        <input type="checkbox" id="Python" name="language">
+        <label for="Python">Python</label>
+        <br><br>
+        <label for="grade">就讀年級：</label>
+        <select id="grade">
+            <option value="freshman">大一</option>
+            <option value="sophomore">大二</option>
+            <option value="junior">大三</option>
+            <option value="senior">大四</option>
+        </select>
+        <br>
+        <label for="Email">Email:</label>
+        <input type="email" id="Email" name="Email" placeholder="輸入 Email">
+        <br><br>
+        <label for="other">備註：</label><br>
+        <textarea name="other" rows="2" cols="20" placeholder="輸入備註"></textarea>
+        <br><br>
+        <label for="graph">上傳頭像照片：</label>
+        <input type="file" id="graph" name="graph">
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
