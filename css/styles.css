@@ -9,6 +9,7 @@ header {
     color: rgb(0, 0, 0);
     padding: 1em 0;
     text-align: center;
+    border-radius: 10px;
 }
 p {
     font-size: small;
@@ -31,13 +32,13 @@ section {
     padding: 0;
 }
 .left {
-    padding: 5px;
-    margin-left: 20px;
-    margin-right: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 180, 163, 0.6);
+    text-align: center;
 }
 .right {
-    padding: 5px;
-    margin-right: 20px;
-    border: 25px ridge rgb(255, 218, 148);
+    padding: 20px;
     border-radius: 10px;
+    background-color: rgba(246, 189, 208, 0.6);
 }
