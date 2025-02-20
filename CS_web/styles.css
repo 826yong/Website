@@ -1,11 +1,79 @@
-header {
+body {
+    background-color: rgba(222, 225, 227, 0.849);
+}
 
+header {
+    background-color: #59B1D4;
+    height: 125px;
+    margin: 8px 0px 0px;
+}
+
+.school {
+    color: #F9EEB6;
+    font-family: Noto Sans TC;
+    font-weight: bold;
+}
+
+.page {
+    display: flex;
+    align-items: center;
+}
+
+.scroll-container {
+    overflow: hidden;
+    white-space: nowrap; /* 讓內容不換行 */
+    display: flex;
+    scroll-behavior: smooth; /* 滑動平滑效果 */
+    gap: 20px;
+    font-size: 22px;
+    margin: 0px 0px -6px;
+    padding: 3px 0px;
+    color: #87543E;
+    font-weight: bold;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    max-width: 750px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.location {
+    font-size: 20px;
+    color: #59B1D4;
+    font-weight: bolder;
+    margin: 15px 0px 0px;
+}
+
+aside {
+    border-radius: 15px;
+    width: 23%;
+    height: auto;
+    margin: 15px;
+    padding: 1px;
+    background-color: #ffffff;
+}
+
+.bookmark {
+    border-radius: 15px;
+    border-style: solid;
+    padding: 15px;
+    margin: 10%;
+}
+
+/* .bookmark div:active {
+    background-color: rgb(98, 161, 242);
+    
+} */
+
+.all {
+    background-color: rgb(98, 161, 242);
 }
 
 footer {
 
-}
-
-nav {
-    
 }
