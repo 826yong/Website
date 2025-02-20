@@ -1,9 +1,15 @@
 body {
     background-color: rgba(222, 225, 227, 0.849);
+    margin: 0px;
+}
+
+.top {
+    font-size: 10px;
+    background-color: #59B1D4;
+    color: #59B1D4;
 }
 
 header {
-    background-color: #59B1D4;
     height: 125px;
     margin: 8px 0px 0px;
 }
@@ -12,11 +18,15 @@ header {
     color: #F9EEB6;
     font-family: Noto Sans TC;
     font-weight: bold;
+    background-color: #59B1D4;
+    padding: 10px 10px 0px 10px;
 }
 
 .page {
     display: flex;
     align-items: center;
+    background-color: #ffffff;
+    padding: 8px;
 }
 
 .scroll-container {
@@ -26,8 +36,8 @@ header {
     scroll-behavior: smooth; /* 滑動平滑效果 */
     gap: 20px;
     font-size: 22px;
-    margin: 0px 0px -6px;
-    padding: 3px 0px;
+    margin: 0px;
+    padding: 2px 0px;
     color: #87543E;
     font-weight: bold;
 }
@@ -37,32 +47,55 @@ button {
 }
 
 .container {
-    max-width: 750px;
+    max-width: 90%;
     margin: 20px auto;
     padding: 20px;
 }
 
 .location {
+    
     font-size: 20px;
     color: #59B1D4;
     font-weight: bolder;
     margin: 15px 0px 0px;
 }
 
+.Big {
+
+}
+
+.Big p {
+    font-size: 30px;
+
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 10px;
+}
+
 aside {
+    font-size: 16px;
     border-radius: 15px;
-    width: 23%;
-    height: auto;
     margin: 15px;
-    padding: 1px;
+    padding: 10px 12px;
     background-color: #ffffff;
+    max-width: 25%;
 }
 
 .bookmark {
     border-radius: 15px;
     border-style: solid;
-    padding: 15px;
-    margin: 10%;
+    border-color: #59B1D4;
+    padding: 10px 25px;
+    margin: 10px;
+}
+
+.book {
+    margin: 10px;
+    padding: 8px 0px 8px 0px;
 }
 
 /* .bookmark div:active {
@@ -70,10 +103,71 @@ aside {
     
 } */
 
-.all {
+.All {
     background-color: rgb(98, 161, 242);
+    margin: 10px;
+}
+
+main {
+    max-width: 75%;
+    border: 15px solid #58829A;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+.information {
+    padding: 10px 30px;
+}
+
+.word {
+
+}
+
+.file {
+    white-space: nowrap;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    color: #59B1D4;
+    font-weight: bold;
+    margin: 10px 0px;
+    padding-bottom: 5px;
+}
+
+.line {
+    border-bottom: 2px solid #58829A;
+    gap: 20px;
+    display: flex;
+    justify-content: flex-start flex-end;
 }
 
 footer {
+    background-color: #58829A;
+    padding: 10px 10px 1px 1px;
+}
 
+.seperate { 
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 5px;
+}
+
+.logo {
+
+}
+
+.contact {
+    margin: 4px;
+}
+
+.color {
+    color: #F9EEB6;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 10px;
+    text-align: center;
+    margin: 15px 15px 0px 20px;
+    border-top: 1px solid #ffffff;
 }
