@@ -60,10 +60,6 @@ button {
     margin: 15px 0px 0px;
 }
 
-.Big {
-
-}
-
 .Big p {
     font-size: 30px;
 
@@ -119,10 +115,6 @@ main {
     padding: 10px 30px;
 }
 
-.word {
-
-}
-
 .file {
     white-space: nowrap;
     gap: 20px;
@@ -150,10 +142,6 @@ footer {
     display: grid;
     grid-template-columns: 1fr 4fr;
     gap: 5px;
-}
-
-.logo {
-
 }
 
 .contact {
