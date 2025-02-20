@@ -140,12 +140,17 @@ footer {
 
 .seperate { 
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 2fr 1fr;
     gap: 5px;
+    padding: 20px 101.5px 5px;
+}
+
+.address {
+    margin: 10px;
 }
 
 .contact {
-    margin: 4px;
+    margin: 10px;
 }
 
 .color {
