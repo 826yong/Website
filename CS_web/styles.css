@@ -1,6 +1,7 @@
 body {
     background-color: rgba(222, 225, 227, 0.849);
     margin: 0px;
+    font-family: "Noto Sans TC";
 }
 
 .top {
@@ -16,7 +17,6 @@ header {
 
 .school {
     color: #F9EEB6;
-    font-family: Noto Sans TC;
     font-weight: bold;
     background-color: #59B1D4;
     padding: 10px 10px 0px 10px;
@@ -24,7 +24,7 @@ header {
 
 .page {
     display: flex;
-    align-items: center;
+    justify-content: space-around;
     background-color: #ffffff;
     padding: 8px;
 }
@@ -53,16 +53,19 @@ button {
 }
 
 .location {
-    
     font-size: 20px;
+    white-space: nowrap;
+    gap: 15px;
+    display: inline-flex;
     color: #59B1D4;
-    font-weight: bolder;
-    margin: 15px 0px 0px;
+    font-weight: bold;
+    margin-top: 15px;
+    
 }
 
-.Big p {
+.download {
     font-size: 30px;
-
+    margin: 15px;
 }
 
 .bottom {
@@ -78,20 +81,18 @@ aside {
     margin: 15px;
     padding: 10px 12px;
     background-color: #ffffff;
-    max-width: 25%;
+    width: 180px;
 }
 
 .bookmark {
     border-radius: 15px;
     border-style: solid;
     border-color: #59B1D4;
-    padding: 10px 25px;
-    margin: 10px;
+    padding: 30px 0px;
 }
 
 .book {
-    margin: 10px;
-    padding: 8px 0px 8px 0px;
+    padding: 8px 40px 8px 20px;
 }
 
 /* .bookmark div:active {
@@ -101,7 +102,7 @@ aside {
 
 .All {
     background-color: rgb(98, 161, 242);
-    margin: 10px;
+    padding: 8px 40px 8px 20px;
 }
 
 main {
@@ -115,6 +116,10 @@ main {
     padding: 10px 30px;
 }
 
+.word {
+    width: 550px;
+}
+
 .file {
     white-space: nowrap;
     gap: 20px;
@@ -122,25 +127,31 @@ main {
     justify-content: center;
     color: #59B1D4;
     font-weight: bold;
-    margin: 10px 0px;
-    padding-bottom: 5px;
+    float: right;
+    font-weight: 550;
+    padding: 5px 10px;
+    margin: auto;         /*置中*/
+    white-space: nowrap;
 }
 
 .line {
     border-bottom: 2px solid #58829A;
-    gap: 20px;
+    padding: 14px 0px;
     display: flex;
-    justify-content: flex-start flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 footer {
     background-color: #58829A;
     padding: 10px 10px 1px 1px;
+    font-size: 16px;
 }
 
 .seperate { 
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 4fr 2fr;
     gap: 5px;
     padding: 20px 101.5px 5px;
 }
