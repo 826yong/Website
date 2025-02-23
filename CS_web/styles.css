@@ -24,7 +24,8 @@ header {
 }
 
 .language {
-    margin: 10px;
+    padding-top: 5px;
+    background-color: #ffffff;
 }
 
 .chinese {
