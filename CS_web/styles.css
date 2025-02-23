@@ -13,39 +13,50 @@ body {
 header {
     height: 125px;
     margin: 8px 0px 0px;
+    background-color: #ffffff;
 }
 
 .setting {
     display: flex;
     justify-content: space-between;
-    background-color: #ffffff;
+    background-color: #59B1D4;
+    /* clip-path: polygon(0px 0px, 65% 0px, 58% 90px, 0px 100px); */
 }
 
 .language {
-    display: flex;
-    gap: 15px;
-    margin: 5px 1px;
+    margin: 10px;
 }
 
-.language p {
-    display: inline-block;
+.chinese {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
     color: #58829A;
+    margin-right: 15px;
 }
 
 .icon {
-    
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
 
 .login {
-    
+    width: 75px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #4E9DBD;
+    text-align: center;
+    line-height: 38px;
+    color: #ffffff;
+    font-size: 20px;
 }
 
 .school {
     color: #F9EEB6;
     font-weight: bold;
-    background-color: #59B1D4;
-    padding: 10px 10px 0px 10px;
-    width: 65%;
 }
 
 .school p {
@@ -98,6 +109,16 @@ button {
 
 .download {
     font-size: 30px;
+    display: block;
+    white-space: nowrap;
+    color: #ffffff;
+}
+
+.polygon {
+    display: block;
+    width: 264px;
+    height: auto;
+    fill: #f2bc9d;
 }
 
 .bottom {
