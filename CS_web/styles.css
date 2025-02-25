@@ -91,9 +91,9 @@ header {
     font-weight: bold;
 }
 
-button {
+/* button {
     cursor: pointer;
-}
+} */
 
 .container {
     max-width: 90%;
