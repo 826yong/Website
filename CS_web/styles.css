@@ -107,8 +107,9 @@ header {
 }
 
 .above {
-    padding: 0px 30px;
-    margin: auto 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .location {
@@ -272,52 +273,38 @@ footer {
     border-top: 1px solid #ffffff;
 }
 
-@media (max-width: 768px) {
-    .choice {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
+@media (max-width: 1200px) {
     .setting {
-        width: 100%;
-        clip-path: none;
         padding: 10px 0;
     }
 
-    .school p {
-        display: block;
+    .school p:nth-child(2), .school p:nth-child(5) { 
+        display: none;
     }
 
     .language {
-        width: 100%;
-        padding: 10px 0;
+        display: none;
     }
 
     .icon {
         flex-wrap: wrap;
         justify-content: center;
     }
+}
 
+@media (max-width: 700px) {
     .above {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+
     }
 
     .location {
-        order: 1;
         display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+        flex-wrap: nowrap;
         gap: 10px;
     }
 
     .download {
-        order: 2;
         margin-top: 10px;
-        width: 100%;
         text-align: center;
     }
 
