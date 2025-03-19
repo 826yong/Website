@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    line-height: 1.5;
+}
+.container {
+    width: 85%;
+    background-color: rgb(230, 237, 248);
+    padding: 20px 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 1px rgb(143, 211, 251);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gender-container {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.radio-option {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+button {
+    border-radius: 15px;
+    border: 0px;
+    background-color: rgb(111, 202, 255);
+    color: #ffffff;
+    font-size: 15px;
+    margin: 15px 10px;
+}

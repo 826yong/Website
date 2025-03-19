@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javaScript practice 0319</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+
+    <div class="container">
+    
+    <div>    
+    <p id="output">Your name is ‽‽‽<br>Your age is ∞∞∞<br>Your gender is ⋍⋍⋍</p>
+    
+    <label for="inputName">Enter your name: </label>
+    <input type="text" id="inputName"><br>
+
+    <label for="inputAge">Enter your age: </label>
+    <input type="number" id="inputAge"><br>
+    
+    <div class="gender-container">
+        <label for="inputGender">Enter your gender: </label>
+        <div class="radio-group">
+            <div class="radio-option">
+                <input type="radio" id="male" name="inputGender">
+                <label for="male">male</label>
+            </div>
+            <div class="radio-option">
+                <input type="radio" id="female" name="inputGender">
+                <label for="female">female</label>
+            </div>
+        </div>
+    </div>
+
+    <button onclick="setInfo()">SET</button>
+    </div>
+
+    </div>
+
+    <script>
+        let person = {
+            name: "",
+            age: "",
+            gender: "",
+            get fullInfo() {
+                return `${this.name} ${this.age} ${this.gender}`;
+            },
+            set fullInfo(information) {
+                this.name = information.name;
+                this.age = information.age;
+                this.gender = information.gender;
+            }
+        };
+
+        function setInfo() {
+            let newName = document.getElementById("inputName").value;
+            let newAge = document.getElementById("inputAge").value;
+            let genderOptions = document.getElementsByName("inputGender");
+            let newGender = "";
+            for (let option of genderOptions) {
+                if (option.checked) {
+                    newGender = option.labels[0].innerHTML;
+                    break;
+                }
+            }
+
+            let newFullInfo = {
+                name: newName,
+                age: newAge,
+                gender: newGender
+            };
+
+            person.fullInfo = newFullInfo;
+
+            document.getElementById("output").innerHTML = 
+                            "Your name is " + person.name + ". <br>" 
+                            + "Your age is " + person.age + ". <br>"      
+                            + "Your gender is " + person.gender + ".";
+        }
+    </script>
+</body>
+</html>
