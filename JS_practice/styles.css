@@ -1,8 +1,13 @@
 body {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     font-size: large;
     line-height: 1.5;
+}
+h3 {
+    color:rgb(78, 162, 211);
 }
 .container {
     width: 85%;
