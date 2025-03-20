@@ -2,7 +2,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 75%;
 }
 
 .container {
@@ -11,8 +10,16 @@ body {
     flex-direction: column;
     gap: 10px;
     border-radius: 5px;
-    border: #9b8ded solid;
-    padding: 50px;
+    background-color: rgba(176, 134, 249, 0.5);
+    box-shadow: 10px 11px rgba(186, 150, 247, 0.3);
+    padding: 20px 60px;
+    text-align: center;
+}
+
+p {
+    font-weight: bolder;
+    font-size: larger;
+    color: #7662b8;
 }
 
 input {
@@ -20,6 +27,7 @@ input {
     border-left: 0px;
     border-right: 0px;
     box-shadow: 3px 3px #9b8ded;
+    background-color: rgba(244, 238, 255, 0.5);
 }
 
 input:onclick {
