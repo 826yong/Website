@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 5px;
+    border: #9b8ded solid;
+    padding: 50px;
+}
+
+input {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    box-shadow: 3px 3px #9b8ded;
+}
+
+input:onclick {
+    content: none;
+}
