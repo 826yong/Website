@@ -10,5 +10,6 @@
 * [Loading](https://826yong.github.io/Website/animation/loading.html)
 ### homework 4
 * [Login](https://826yong.github.io/Website/login/login.html)
+* 帳號: admin 密碼: 1234
 ### additional 
 * [JavaScript](https://826yong.github.io/Website/JS_practice/index.html)
