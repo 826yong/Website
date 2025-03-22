@@ -29,8 +29,6 @@ function genNewCaptcha() {
     
 }
 
-window.onload = genNewCaptcha;
-
 function logIn() {
     let account = document.getElementById("Account").value;
     let password = document.getElementById("Password").value;
@@ -47,6 +45,12 @@ function logIn() {
         return;
     }
 
+    localStorage.setItem("isLoggedIn", "true");
+
     window.location.href = "https://826yong.github.io/Probability/CrazySpin/JS_version/index.html";
 
 }
+
+window.onload = function() {
+    genNewCaptcha();
+};
