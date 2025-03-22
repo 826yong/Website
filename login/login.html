@@ -15,16 +15,18 @@
         <div>
             <input type="text" id="Account" placeholder="Account">
         </div>
+
         <div>
             <input type="password" id="Password" placeholder="Password">
         </div>
-        <div calss="captcha">
+
+        <div class="captcha">
             <div>
                 <input type="text" id="Captcha" placeholder="Captcha">
             </div>
             <div>
-                <canvas id="myCanvas" width='90' height='40' onclick="genNewCaptcha()"></canvas>
-            </div>
+                <canvas id="myCanvas" width='110' height='40' onclick="genNewCaptcha()"></canvas>
+            </div>    
         </div>
 
         <button onclick="logIn()">登入</button>

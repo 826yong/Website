@@ -30,16 +30,6 @@ input {
     background-color: rgba(219, 237, 248, 0.8);
 }
 
-.captcha {
-    display: flex;
-    align-items: center;
-    flex-wrap: nowrap;
-}
-
-#myCanvas {
-    cursor: pointer;
-}
-
 button {
     width: 100px;
     background-color: rgb(144, 212, 255);
