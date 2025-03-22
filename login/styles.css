@@ -7,11 +7,12 @@ body {
 .container {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     gap: 10px;
     border-radius: 5px;
-    background-color: rgba(176, 134, 249, 0.5);
-    box-shadow: 10px 11px rgba(186, 150, 247, 0.3);
+    border: 10px solid rgba(150, 205, 247, 0.3);
+    box-shadow: 10px 11px rgb(186, 207, 255);
     padding: 20px 60px;
     text-align: center;
 }
@@ -19,17 +20,32 @@ body {
 p {
     font-weight: bolder;
     font-size: larger;
-    color: #7662b8;
+    color: #6280b8;
 }
 
 input {
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
-    box-shadow: 3px 3px #9b8ded;
-    background-color: rgba(244, 238, 255, 0.5);
+    background-color: rgba(219, 237, 248, 0.8);
 }
 
-input:onclick {
-    content: none;
+.captcha {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+#myCanvas {
+    cursor: pointer;
+}
+
+button {
+    width: 100px;
+    background-color: rgb(144, 212, 255);
+    border: 0px;
+    border-radius: 15px;
+    padding: 5px;
+    color: #ffffff;
+    font-size: 15px;
 }
