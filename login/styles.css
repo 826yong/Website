@@ -5,6 +5,7 @@ body {
 }
 
 .container {
+    width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,6 +43,10 @@ button {
     font-size: 15px;
 }
 
+#Password {
+    width: 120px;
+}
+
 #show_password {
     width: 60px;
     background-color: #ffffff;
@@ -49,4 +54,10 @@ button {
     border: 1px solid rgb(186, 207, 255);
     font-size: small;
     border-radius: 10px;
+}
+
+.password_container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
