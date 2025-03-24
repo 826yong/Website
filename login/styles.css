@@ -28,7 +28,7 @@ input {
     border-left: 0px;
     border-right: 0px;
     background-color: rgba(219, 237, 248, 0.8);
-    width: 180px;
+    width: 185px;
     height: 25px;
 }
 
@@ -40,4 +40,13 @@ button {
     padding: 5px;
     color: #ffffff;
     font-size: 15px;
+}
+
+#show_password {
+    width: 60px;
+    background-color: #ffffff;
+    color:rgb(186, 207, 255);
+    border: 1px solid rgb(186, 207, 255);
+    font-size: small;
+    border-radius: 10px;
 }
