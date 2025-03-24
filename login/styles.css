@@ -28,6 +28,8 @@ input {
     border-left: 0px;
     border-right: 0px;
     background-color: rgba(219, 237, 248, 0.8);
+    width: 180px;
+    height: 25px;
 }
 
 button {

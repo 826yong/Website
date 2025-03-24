@@ -1,5 +1,18 @@
 let captcha = "";
 
+function showPW() {
+    let visible = document.getElementById("show_password");
+    let password = document.getElementById("Password");
+    
+    if (visible.innerHTML == "(￣o￣)") {
+        password.type = "text";
+        visible.innerHTML = "(⊙_⊙)";
+    } else {
+        password.type = "password";
+        visible.innerHTML = "(￣o￣)";
+    }
+}
+
 function genNewCaptcha() {
     const canvas = document.getElementById("myCanvas");
     const ctx = canvas.getContext("2d");
