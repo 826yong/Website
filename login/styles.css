@@ -31,6 +31,7 @@ input {
     background-color: rgba(219, 237, 248, 0.8);
     width: 185px;
     height: 25px;
+    border-radius: 5px;;
 }
 
 button {
